@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "scripts"
+version = "0.1.0"
+description = "Algolia utility scropts"
+authors = ["Chuck Meyer <chuck.meyer@algolia.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+algoliasearch = "^2.6.1"
+python-dotenv = "^0.19.2"
+random_name = "^0.1.1"
+
+[tool.poetry.dev-dependencies]
+black = "^21.12b0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
